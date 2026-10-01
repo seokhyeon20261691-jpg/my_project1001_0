@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Gowun Dodum', 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 100vh;
+    letter-spacing: -0.01em;
+  }
+
+  /* Monospace numbers with rounded touch */
+  .font-mono {
+    font-family: 'JetBrains Mono', 'Nunito', ui-monospace, SFMono-Regular, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+}
+
+/* Custom scrollbar in monochrome */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
