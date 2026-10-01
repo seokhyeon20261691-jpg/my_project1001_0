@@ -1,0 +1,6 @@
+{
+  "name": "모노크롬 가계부",
+  "description": "흑백 미니멀 디자인의 스마트 가계부. 지출 카테고리 자동 분류, 일/주/월/년 단위 시각화 및 엑셀 데이터 추출 기능 제공.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
